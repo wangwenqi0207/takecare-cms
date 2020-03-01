@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d213392"],{ac82:function(n,t,e){"use strict";e.r(t);var a=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",{staticClass:"app-container"},[n._v("\n  群社区列表\n")])},c=[],s=e("2877"),l={},u=Object(s["a"])(l,a,c,!1,null,null,null);t["default"]=u.exports}}]);

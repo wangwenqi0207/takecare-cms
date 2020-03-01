@@ -1,0 +1,104 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  background-color: rgba(242, 242, 242, 1);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  margin: 20px;
+  padding: 20px;
+  height: 100%;
+  background: #fff;
+  position: relative;
+}
+.comment_box{
+  // margin: 20px;
+  padding: 20px;
+  height: 100%;
+  background: #fff;
+  overflow: auto;
+}
+// .min_width_container{
+//   height:100% ;
+//   overflow: hidden;
+//   min-width: 1200px;
+//   position: relative;
+//   // padding: 10px;
+//   background: #ffffff
+// }
+.bg_color_gray{
+  background-color: #f2f2f2
+}
+
+.sub-navbar {
+  height: 62px;
+  line-height: 57px;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  transition: 600ms ease position;
+}
+
+.min_width_container{
+  height:100% ;
+  overflow: hidden;
+  min-width: 1200px;
+  position: relative
+}
